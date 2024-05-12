@@ -1,0 +1,201 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+.Container{
+  padding: 40px 100px 0px 100px;
+}
+
+.nav a {
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.navleft {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 19px;
+}
+.navright {
+  display: flex;
+  align-self: center;
+  gap: 15px;
+}
+.dabba {
+ 
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.dabba1 h3 {
+  color: greenyellow;
+}
+.dabba1 h1 {
+  font-size: 60px;
+}
+.dabba2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.dabba2 h2 {
+  font-size: 40px;
+}
+.Container button{
+  margin-top: 20px;
+  background-color: #9bdc23;
+  color: black;
+  border: 1px solid #9bdc23;
+  border-radius: 10px;
+  height: 45px;
+  width: 100px;
+}
+.fontgreen {
+  color: #cbfe47;
+
+  color: #9bdc23;
+}
+.box2 {
+ margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.box21 h2{
+font-size: 45px;
+}
+.box21  p{
+  font-size: 10px;
+}
+.box22 h3{
+  font-size: 22px;
+}
+.box22 p{
+  font-size: 10px;
+}
+.box2 hr{
+  margin-top: 10px;
+}
+.box22{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+
+.box22 img{
+  height: 30px;
+  width: 30px;
+}
+.box22 h3{
+display:inline-block;
+}
+.box22 hr{
+margin-top: 25px;
+
+}
+.separator{
+  
+  border: 0.5px solid #575757;
+}
+.box3{
+  margin-top: 170px;
+}
+.box3left{
+  font-size:x-large;
+  font-weight: 400;
+}
+.box3right button{
+  width: 130px;
+}
+.box3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card{
+  margin-top: 20px;
+  background-color: #151515;
+  padding: 50px;
+}
+.card img{
+  
+  width: 100%;
+}
+.bottle-left h1{
+  
+  font-size: 35px;
+  margin-right: 10px;
+}
+.bottle-left img{
+  height: 15px;
+  width: 15px;
+}
+
+
+.bottle-right{
+  font-size: 12px;
+  margin-bottom: 45px;
+}
+.bottle{
+  background-color:#151515 ;
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex{
+  display:flex ;
+  justify-content:space-between ;
+  align-items: center;
+}
+.m-25{
+margin-top: 25px;
+}
+.f-20{
+  width: 20px;
+  height: 20px;
+}
+.curve-right h1{
+  font-size: 50px;
+}
+.curve{
+  display: flex;
+  gap: 70px;
+  background-color:none;
+}
+.curve{
+  background-image: url("./assets/curve.png");
+}
+.futter-d-flex{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  align-self: center;
+}
+.futter-right{
+  display: flex;
+  gap: 100px;
+}
+.end-box{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.futter-right h4{
+  margin-top: 18px;
+}
+.futter-right h5{
+  margin-top: 8px;
+}
