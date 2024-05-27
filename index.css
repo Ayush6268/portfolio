@@ -1,13 +1,15 @@
 * {
   margin: 0%;
   padding: 0%;
-  background-color: black;
+  
   color: white;
   box-sizing: border-box;
 }
 .Container{
+  background-color: black;
   padding: 40px 100px 0px 100px;
 }
+
 
 .nav a {
   font-weight: 400;
@@ -164,16 +166,41 @@ margin-top: 25px;
   width: 20px;
   height: 20px;
 }
+.curve-left img{
+  height: 200px;
+  width: 200px;
+}
 .curve-right h1{
   font-size: 50px;
+  color: black;
+}
+.curve-right p{
+  color: black;
 }
 .curve{
+  padding: 80px;
   display: flex;
   gap: 70px;
+  color: black;
+  height: 500px;
   background-color:none;
+  
 }
 .curve{
   background-image: url("./assets/curve.png");
+  background-size:900px 450px;
+  
+  background-repeat: no-repeat;
+}
+.btn-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+ 
+}
+.icon-image{
+  margin-top: 18px;
 }
 .futter-d-flex{
   display: flex;
@@ -198,4 +225,131 @@ margin-top: 25px;
 }
 .futter-right h5{
   margin-top: 8px;
+}
+@media screen and (max-width:480px){
+  .nav{
+    display: none;
+  }
+  .Container{
+    padding: 10px 35px 10px 35px;
+  }
+  .dabba1 h1{
+    font-size:30px ;
+  }
+  .dabba h3{
+    font-size: 15px;
+  }
+  .dabba2{
+    text-align: center;
+  }
+  .dabba-btn{
+   margin-left:33%;
+  }
+  .dabba{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+    
+  }
+  .box2{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .box3left{
+    font-size: 15px;
+  }
+  .box3right button{
+    width: 70px;
+    height: 30px;
+  }
+  .box3{
+    align-items: center;
+  }
+  .card{
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .bottle-left h2
+  {
+    font-size: 15px;
+  }
+  .bottle{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .See{
+    height: 40px;
+  }
+  .See button{
+    height: 38px;
+  }
+  .curve{
+    padding: 10px;
+    gap: 30px;
+    height: 300px;
+    background-size:375px 250px ;
+    
+  .curve-left img{
+    height: 80px;
+    width: 80px;
+  }
+  .curve-right h1{
+    font-size: 20px;
+    color: black;
+  }
+  .btn-icon button{
+    width: 80px;
+    font-size: 15px;    
+  }
+  .icon-image img{
+    height: 25px;
+    width: 50px;
+  }
+  .btn-icon{
+    width: 150px;
+    display: flex;
+    
+  }
+  .icon-image{
+    margin-top: 5px;}
+
+  .futter-left img{
+   height: 30px;
+   width: 30px;
+  }
+  .futter-left p{
+    font-size: 10px;
+  }
+  .futter-left button{
+    width: 50px;
+    font-size: 10px;
+  }
+  .left-bottom img{
+    margin-top: 20px;
+    width: 70px;
+
+  }
+  .left-bottom{
+    align-items: center;
+
+  }
+  .futter-right h3{
+    font-size: 15px;
+  }
+  .futter-right h4{
+    font-size: 10px;
+  }
+  .futter-right h5{
+    font-size: 7px;
+  }
+  .futter-right{
+    display: flex;
+    gap: 30px;
+  }
+  .endbox{
+    display: flex;
+    gap: 150px;
+  }
+  
 }
